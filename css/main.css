@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+}
+
+.main {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 50em;
+}
+
+.card-title {
+  margin: 0;
+  padding: .3rem 1rem;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
