@@ -15,11 +15,13 @@ h2 {
 
 p {
   font-size: 2rem;
+  font-style: italic;
 }
 
 .banner {
   position: relative;
   max-height: 500px;
+  overflow: hidden;
 }
 
 .main {
@@ -28,11 +30,13 @@ p {
   left: 0;
   width: 100%;
   max-width: 50em;
+  overflow: hidden;
 }
 
 .card-title {
   margin: 0;
   padding: .3rem 1rem;
+  transform: translate(1 1);
 }
 
 .img-flex {
